@@ -15,7 +15,8 @@ namespace miniopgaver
             // Opgave3();
             // Opgave4();
             // Opgave5();
-            Opgave6();
+            // Opgave6();
+            Opgave7();
 
         }
         public static void Opgave1()
@@ -86,6 +87,27 @@ namespace miniopgaver
             tal3 = int.Parse(Console.ReadLine());
             Sum = tal1 * tal2 * tal3;
             Console.WriteLine("Summen af tal1 * det andet tal * det tredie tal er = " + Sum);
+            Console.ReadKey();
+        }
+
+        public static void Opgave7()
+        {
+            //Opgave 7
+            int tal1, tal2, Sum, Sum1, Sum2, Sum3, Sum4;
+            Console.WriteLine("Skriv et tal: ");
+            tal1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Skriv et andet tal: ");
+            tal2 = int.Parse(Console.ReadLine());
+            Sum = tal1 + tal2;
+            Console.WriteLine("Summen af tal1 + det andet tal er = " + Sum);
+            Sum1 = tal1 - tal2;
+            Console.WriteLine("Summen af tal1 - det andet tal er = " + Sum1);
+            Sum2 = tal1 * tal2;
+            Console.WriteLine("Summen af tal1 * det andet tal er = " + Sum2);
+            Sum3 = tal1 / tal2;
+            Console.WriteLine("Summen af tal1 / det andet tal er = " + Sum3);
+            Sum4 = tal1 % tal2;
+            Console.WriteLine("Summen af tal1 mod det andet tal er = " + Sum4);
             Console.ReadKey();
         }
     }
